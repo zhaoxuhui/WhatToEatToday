@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/menu_add"
+            android:title="添加我想吃的"
+            android:icon="@android:drawable/ic_menu_add"/>
+
+    <item
+            android:id="@+id/check_food"
+            android:title="看看我想吃的"
+            android:icon="@android:drawable/ic_menu_gallery"/>
+</menu>

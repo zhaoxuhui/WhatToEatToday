@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/ll_add"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:textSize="20dp"
+                android:id="@+id/et_food"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <TextView
+            android:textSize="20dp"
+            android:text="备注"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:singleLine="true"
+                android:textSize="20dp"
+                android:id="@+id/et_ps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Button
+                style="@style/normal_button"
+                android:onClick="Confirm"
+                android:text="确定"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                />
+
+        <Button
+                style="@style/normal_button"
+                android:onClick="Cancel"
+                android:text="取消"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                />
+    </LinearLayout>
+</LinearLayout>

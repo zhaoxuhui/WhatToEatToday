@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.xuhui.whattoeattoday">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:icon="@drawable/icon_rice"
+            android:label="@string/app_name"
+            android:roundIcon="@drawable/icon_rice"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".Add"
+                android:label="我想吃的"
+                android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+        </activity>
+        <activity
+                android:name=".ShowFoods"
+                android:label="所有我想吃的">
+        </activity>
+        <activity
+                android:name=".Modify"
+                android:label="修改"
+                android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+        </activity>
+        <activity
+                android:name=".Result"
+                android:label="选择结果"
+                android:theme="@android:style/Theme.DeviceDefault.Light.Dialog">
+        </activity>
+    </application>
+
+</manifest>

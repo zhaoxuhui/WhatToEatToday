@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">今天吃什么</string>
+    <string name="title_activity_show_foods">所有我想吃的</string>
+</resources>
